@@ -1,0 +1,14 @@
+joke_task:
+  description: >
+    Create a list of 10 jokes
+  expected_output: >
+    A list with 10 bullet points of jokes
+  agent: joke_creator
+
+add_emojis_task:
+  description: >
+    Add emojis to tje jokes 
+  expected_output: >
+    A list with 10 bullet point of jokes wi th emojis
+    Formattet as markdown without'```'
+  agent: add_emojis
